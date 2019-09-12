@@ -11,4 +11,4 @@ to install all of its pods use the following commands at the Terminal.
 `bundle install; bundle exec pod install --repo-update`
 
 ------
-
+------
