@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C441CFC11EB807E2E5D100E0 /* Pods_Realm_Test_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53A3CCAAADE69B4DC6155A3 /* Pods_Realm_Test_AppUITests.framework */; };
+		DF238CAF233122FA00B3ED62 /* PackageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF238CAD233122FA00B3ED62 /* PackageDetailsViewController.swift */; };
+		DF238CB0233122FA00B3ED62 /* PackageDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF238CAE233122FA00B3ED62 /* PackageDetailsViewController.xib */; };
+		DF55A70C232C176B00DA53E2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55A70B232C176B00DA53E2 /* DataModel.swift */; };
 		DF6DA4992321BF8200225324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DA4982321BF8200225324 /* AppDelegate.swift */; };
 		DF6DA49B2321BF8200225324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DA49A2321BF8200225324 /* ViewController.swift */; };
 		DF6DA49E2321BF8200225324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6DA49C2321BF8200225324 /* Main.storyboard */; };
@@ -44,7 +47,10 @@
 		928C655104C0A6C07DAB3535 /* Pods-Realm Test AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Test AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Realm Test AppTests/Pods-Realm Test AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		939E20B5C8E42C5B92DE200A /* Pods-Realm Test AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Test AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Realm Test AppUITests/Pods-Realm Test AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE3822999AFBBA36DE7B9639 /* Pods-Realm Test App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Test App.release.xcconfig"; path = "Target Support Files/Pods-Realm Test App/Pods-Realm Test App.release.xcconfig"; sourceTree = "<group>"; };
-		DF6DA4952321BF8200225324 /* Realm Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF238CAD233122FA00B3ED62 /* PackageDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageDetailsViewController.swift; sourceTree = "<group>"; };
+		DF238CAE233122FA00B3ED62 /* PackageDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PackageDetailsViewController.xib; sourceTree = "<group>"; };
+		DF55A70B232C176B00DA53E2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		DF6DA4952321BF8200225324 /* Zombie 41 app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zombie 41 app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6DA4982321BF8200225324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF6DA49A2321BF8200225324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF6DA49D2321BF8200225324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,8 +115,16 @@
 				939E20B5C8E42C5B92DE200A /* Pods-Realm Test AppUITests.debug.xcconfig */,
 				48E3F4723C332443DB13C222 /* Pods-Realm Test AppUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF238CB12331230300B3ED62 /* Livly Package */ = {
+			isa = PBXGroup;
+			children = (
+				DF238CAD233122FA00B3ED62 /* PackageDetailsViewController.swift */,
+				DF238CAE233122FA00B3ED62 /* PackageDetailsViewController.xib */,
+			);
+			path = "Livly Package";
 			sourceTree = "<group>";
 		};
 		DF6DA48C2321BF8200225324 = {
@@ -128,7 +142,7 @@
 		DF6DA4962321BF8200225324 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF6DA4952321BF8200225324 /* Realm Test App.app */,
+				DF6DA4952321BF8200225324 /* Zombie 41 app.app */,
 				DF6DA4A92321BF8400225324 /* Realm Test AppTests.xctest */,
 				DF6DA4B42321BF8400225324 /* Realm Test AppUITests.xctest */,
 			);
@@ -138,12 +152,14 @@
 		DF6DA4972321BF8200225324 /* Realm Test App */ = {
 			isa = PBXGroup;
 			children = (
+				DF238CB12331230300B3ED62 /* Livly Package */,
 				DF6DA4982321BF8200225324 /* AppDelegate.swift */,
 				DF6DA49A2321BF8200225324 /* ViewController.swift */,
 				DF6DA49C2321BF8200225324 /* Main.storyboard */,
 				DF6DA49F2321BF8400225324 /* Assets.xcassets */,
 				DF6DA4A12321BF8400225324 /* LaunchScreen.storyboard */,
 				DF6DA4A42321BF8400225324 /* Info.plist */,
+				DF55A70B232C176B00DA53E2 /* DataModel.swift */,
 			);
 			path = "Realm Test App";
 			sourceTree = "<group>";
@@ -185,7 +201,7 @@
 			);
 			name = "Realm Test App";
 			productName = "Realm Test App";
-			productReference = DF6DA4952321BF8200225324 /* Realm Test App.app */;
+			productReference = DF6DA4952321BF8200225324 /* Zombie 41 app.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DF6DA4A82321BF8400225324 /* Realm Test AppTests */ = {
@@ -274,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF238CB0233122FA00B3ED62 /* PackageDetailsViewController.xib in Resources */,
 				DF6DA4A32321BF8400225324 /* LaunchScreen.storyboard in Resources */,
 				DF6DA4A02321BF8400225324 /* Assets.xcassets in Resources */,
 				DF6DA49E2321BF8200225324 /* Main.storyboard in Resources */,
@@ -389,6 +406,8 @@
 			files = (
 				DF6DA49B2321BF8200225324 /* ViewController.swift in Sources */,
 				DF6DA4992321BF8200225324 /* AppDelegate.swift in Sources */,
+				DF238CAF233122FA00B3ED62 /* PackageDetailsViewController.swift in Sources */,
+				DF55A70C232C176B00DA53E2 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,9 +591,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.works.gov.Realm-Test-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Zombie 41 app";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -591,9 +610,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.works.gov.Realm-Test-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Zombie 41 app";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HsF-rZ-jEk">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,30 +16,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vIM-pO-ter">
-                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YcC-L4-QeH">
+                                <rect key="frame" x="151.66666666666666" y="248" width="72" height="30"/>
+                                <state key="normal" title="Zombie 41"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="L03-51-wJj"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="MCg-Xm-PL1"/>
+                                    <action selector="zombie41ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AqU-6K-p0Z"/>
                                 </connections>
-                            </tableView>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vIM-pO-ter" secondAttribute="bottom" id="7md-No-NTw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vIM-pO-ter" secondAttribute="trailing" id="NG1-QO-wsz"/>
-                            <constraint firstItem="vIM-pO-ter" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NyH-j7-WCW"/>
-                            <constraint firstItem="vIM-pO-ter" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iFv-wH-U2q"/>
+                            <constraint firstItem="YcC-L4-QeH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RbC-tE-B4C"/>
+                            <constraint firstItem="YcC-L4-QeH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="160" id="eFT-Pf-sa8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="tableView" destination="vIM-pO-ter" id="Oqd-Mp-yLf"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="hIi-qC-P5Q"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="130" y="132"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PcS-FQ-dmG">
+            <objects>
+                <navigationController id="HsF-rZ-jEk" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TL8-o5-cmV">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3TO-ya-Gmc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VMv-U9-nQ2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-697" y="137"/>
         </scene>
     </scenes>
 </document>
