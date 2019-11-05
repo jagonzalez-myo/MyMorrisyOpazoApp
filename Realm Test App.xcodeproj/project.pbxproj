@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF55A70C232C176B00DA53E2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55A70B232C176B00DA53E2 /* DataModel.swift */; };
 		DF6DA4992321BF8200225324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DA4982321BF8200225324 /* AppDelegate.swift */; };
 		DF6DA49B2321BF8200225324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DA49A2321BF8200225324 /* ViewController.swift */; };
 		DF6DA49E2321BF8200225324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6DA49C2321BF8200225324 /* Main.storyboard */; };
@@ -26,7 +25,6 @@
 		928C655104C0A6C07DAB3535 /* Pods-Realm Test AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Test AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Realm Test AppTests/Pods-Realm Test AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		939E20B5C8E42C5B92DE200A /* Pods-Realm Test AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Test AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Realm Test AppUITests/Pods-Realm Test AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE3822999AFBBA36DE7B9639 /* Pods-Realm Test App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Test App.release.xcconfig"; path = "Target Support Files/Pods-Realm Test App/Pods-Realm Test App.release.xcconfig"; sourceTree = "<group>"; };
-		DF55A70B232C176B00DA53E2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		DF6DA4952321BF8200225324 /* MyO App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyO App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6DA4982321BF8200225324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF6DA49A2321BF8200225324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				DF6DA49F2321BF8400225324 /* Assets.xcassets */,
 				DF6DA4A12321BF8400225324 /* LaunchScreen.storyboard */,
 				DF6DA4A42321BF8400225324 /* Info.plist */,
-				DF55A70B232C176B00DA53E2 /* DataModel.swift */,
 			);
 			path = "Realm Test App";
 			sourceTree = "<group>";
@@ -260,7 +257,6 @@
 				DF83C4412372038200ED4726 /* SecondViewController.swift in Sources */,
 				DF6DA49B2321BF8200225324 /* ViewController.swift in Sources */,
 				DF6DA4992321BF8200225324 /* AppDelegate.swift in Sources */,
-				DF55A70C232C176B00DA53E2 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
