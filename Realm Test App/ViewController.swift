@@ -1,9 +1,5 @@
 //
-//  ViewController.swift
-//  Realm Test App
-//
-//  Created by Javier González Ovalle on 9/5/19.
-//  Copyright © 2019 Javier González Ovalle. All rights reserved.
+//  Copyright © 2019. All rights reserved.
 //
 
 import UIKit
@@ -22,24 +18,9 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func zombie41ButtonAction(_ sender: UIButton) {
-        let packageDetailsVC = PackageDetailsViewController()
-        self.navigationController?.pushViewController(packageDetailsVC, animated: true)
+    @IBAction func enterButtonAction(_ sender: UIButton) {
+        let newViewController = SecondViewController()
+        navigationController?.pushViewController(newViewController, animated: true)
     }
-}
-
-extension ViewController: UITableViewDelegate {
-    
-}
-
-extension ViewController: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
-    }
-    
     
 }

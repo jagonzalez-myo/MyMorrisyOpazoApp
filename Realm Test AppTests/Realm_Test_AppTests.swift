@@ -2,8 +2,7 @@
 //  Realm_Test_AppTests.swift
 //  Realm Test AppTests
 //
-//  Created by Javier González Ovalle on 9/5/19.
-//  Copyright © 2019 Javier González Ovalle. All rights reserved.
+//  Copyright © 2019. All rights reserved.
 //
 
 import XCTest

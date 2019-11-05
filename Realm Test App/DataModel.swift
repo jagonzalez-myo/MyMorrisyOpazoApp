@@ -1,9 +1,5 @@
 //
-//  DataModel.swift
-//  Realm Test App
-//
-//  Created by Javier González Ovalle on 9/13/19.
-//  Copyright © 2019 Javier González Ovalle. All rights reserved.
+//  Copyright © 2019. All rights reserved.
 //
 
 import Foundation

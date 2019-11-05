@@ -1,9 +1,5 @@
 //
-//  AppDelegate.swift
-//  Realm Test App
-//
-//  Created by Javier González Ovalle on 9/5/19.
-//  Copyright © 2019 Javier González Ovalle. All rights reserved.
+//  Copyright © 2019. All rights reserved.
 //
 
 import UIKit
