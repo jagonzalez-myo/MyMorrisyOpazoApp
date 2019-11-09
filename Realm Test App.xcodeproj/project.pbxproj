@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043053802376399A006CEB4A /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430537F2376399A006CEB4A /* SecondViewModel.swift */; };
+		0430538223763A32006CEB4A /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430538123763A32006CEB4A /* PersonViewModel.swift */; };
+		0430538423763D43006CEB4A /* Sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430538323763D43006CEB4A /* Sorted.swift */; };
+		0430538823763DE8006CEB4A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430538623763DE8006CEB4A /* DetailViewController.swift */; };
+		0430538923763DE8006CEB4A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0430538723763DE8006CEB4A /* DetailViewController.xib */; };
+		04E7A0E9237637B70035A28C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A0E8237637B70035A28C /* DataManager.swift */; };
+		04E7A0EC237637C30035A28C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A0EB237637C30035A28C /* Person.swift */; };
+		04E7A0F0237638090035A28C /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7A0EE237638090035A28C /* PersonTableViewCell.swift */; };
+		04E7A0F1237638090035A28C /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E7A0EF237638090035A28C /* PersonTableViewCell.xib */; };
 		DF6DA4992321BF8200225324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DA4982321BF8200225324 /* AppDelegate.swift */; };
 		DF6DA49B2321BF8200225324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DA49A2321BF8200225324 /* ViewController.swift */; };
 		DF6DA49E2321BF8200225324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6DA49C2321BF8200225324 /* Main.storyboard */; };
@@ -18,6 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0430537F2376399A006CEB4A /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		0430538123763A32006CEB4A /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		0430538323763D43006CEB4A /* Sorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorted.swift; sourceTree = "<group>"; };
+		0430538623763DE8006CEB4A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0430538723763DE8006CEB4A /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		04E7A0E8237637B70035A28C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		04E7A0EB237637C30035A28C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		04E7A0EE237638090035A28C /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		04E7A0EF237638090035A28C /* PersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
 		48E3F4723C332443DB13C222 /* Pods-Realm Test AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Test AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Realm Test AppUITests/Pods-Realm Test AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		56B981E1908E1ACE5A6EBDE4 /* Pods-Realm Test App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Test App.debug.xcconfig"; path = "Target Support Files/Pods-Realm Test App/Pods-Realm Test App.debug.xcconfig"; sourceTree = "<group>"; };
 		703D0ACE575E468EE5B84820 /* Pods_Realm_Test_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_Test_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +72,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0430537E2376398F006CEB4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0430537F2376399A006CEB4A /* SecondViewModel.swift */,
+				0430538123763A32006CEB4A /* PersonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0430538523763DD6006CEB4A /* Detail Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0430538623763DE8006CEB4A /* DetailViewController.swift */,
+				0430538723763DE8006CEB4A /* DetailViewController.xib */,
+			);
+			path = "Detail Screen";
+			sourceTree = "<group>";
+		};
+		04E7A0E2237636900035A28C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				04E7A0E5237637490035A28C /* First Screen */,
+				DF83C43E2372036700ED4726 /* Second Screen */,
+				0430538523763DD6006CEB4A /* Detail Screen */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		04E7A0E3237636970035A28C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04E7A0EA237637BC0035A28C /* Entities */,
+				04E7A0E8237637B70035A28C /* DataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E7A0E42376369A0035A28C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0430538323763D43006CEB4A /* Sorted.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		04E7A0E5237637490035A28C /* First Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DF6DA49A2321BF8200225324 /* ViewController.swift */,
+				DF6DA49C2321BF8200225324 /* Main.storyboard */,
+			);
+			path = "First Screen";
+			sourceTree = "<group>";
+		};
+		04E7A0EA237637BC0035A28C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				04E7A0EB237637C30035A28C /* Person.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		04E7A0ED237637FD0035A28C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04E7A0EE237638090035A28C /* PersonTableViewCell.swift */,
+				04E7A0EF237638090035A28C /* PersonTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		863201DC28BC1FA9BB99D2EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,10 +189,10 @@
 		DF6DA4972321BF8200225324 /* Realm Test App */ = {
 			isa = PBXGroup;
 			children = (
-				DF83C43E2372036700ED4726 /* Second Screen */,
+				04E7A0E42376369A0035A28C /* Utils */,
+				04E7A0E3237636970035A28C /* Model */,
+				04E7A0E2237636900035A28C /* Application */,
 				DF6DA4982321BF8200225324 /* AppDelegate.swift */,
-				DF6DA49A2321BF8200225324 /* ViewController.swift */,
-				DF6DA49C2321BF8200225324 /* Main.storyboard */,
 				DF6DA49F2321BF8400225324 /* Assets.xcassets */,
 				DF6DA4A12321BF8400225324 /* LaunchScreen.storyboard */,
 				DF6DA4A42321BF8400225324 /* Info.plist */,
@@ -132,6 +221,8 @@
 		DF83C43E2372036700ED4726 /* Second Screen */ = {
 			isa = PBXGroup;
 			children = (
+				0430537E2376398F006CEB4A /* ViewModel */,
+				04E7A0ED237637FD0035A28C /* Cells */,
 				DF83C43F2372038200ED4726 /* SecondViewController.swift */,
 				DF83C4402372038200ED4726 /* SecondViewController.xib */,
 			);
@@ -199,9 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF83C4422372038200ED4726 /* SecondViewController.xib in Resources */,
+				0430538923763DE8006CEB4A /* DetailViewController.xib in Resources */,
 				DF6DA4A32321BF8400225324 /* LaunchScreen.storyboard in Resources */,
 				DF6DA4A02321BF8400225324 /* Assets.xcassets in Resources */,
 				DF6DA49E2321BF8200225324 /* Main.storyboard in Resources */,
+				04E7A0F1237638090035A28C /* PersonTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043053802376399A006CEB4A /* SecondViewModel.swift in Sources */,
+				04E7A0F0237638090035A28C /* PersonTableViewCell.swift in Sources */,
+				04E7A0EC237637C30035A28C /* Person.swift in Sources */,
+				0430538223763A32006CEB4A /* PersonViewModel.swift in Sources */,
 				DF83C4412372038200ED4726 /* SecondViewController.swift in Sources */,
+				04E7A0E9237637B70035A28C /* DataManager.swift in Sources */,
+				0430538423763D43006CEB4A /* Sorted.swift in Sources */,
+				0430538823763DE8006CEB4A /* DetailViewController.swift in Sources */,
 				DF6DA49B2321BF8200225324 /* ViewController.swift in Sources */,
 				DF6DA4992321BF8200225324 /* AppDelegate.swift in Sources */,
 			);
@@ -405,7 +505,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
 				INFOPLIST_FILE = "Realm Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,7 +526,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
 				INFOPLIST_FILE = "Realm Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
