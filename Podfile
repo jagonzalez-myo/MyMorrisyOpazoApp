@@ -7,5 +7,7 @@ target 'Realm Test App' do
 
   # Pods for Realm Test App
   pod 'R.swift'
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
   ## pod 'RealmSwift'
 end
